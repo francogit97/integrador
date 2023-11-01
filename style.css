@@ -49,32 +49,22 @@
 
 
 .main{
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
-.hero-info {
+.hero-info { 
     text-align: center;
-   
-   
-}
-
-.hero-img{ 
-    width: 1000px;
-    height: 400px;
-    overflow: hidden;
-    position: top;
-    margin: 200px auto;
-    border-radius: 15px;
+    background-image: url(./imagenes/pilar-fitness-gym.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     box-shadow: 5px 8px 12px black;
+    padding: 150px;
+
 }
 
-.title {
-    font-size: 3em;
-    color: #1c1e20 ; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
+.btn { 
 
-    
 }
