@@ -9,62 +9,113 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-.nav {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   background-color: white;
-   padding: 1rem;
-   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
-   position: fixed;
-   width: 100%;
-   
-
-   
-   
-}
-
-
-.img__logo {
-    width: 150x;
+.img-logo {
     height: 150px;
-    border-radius: 100px;
 }
 
+.main { 
+    padding-top: 100px;
+}
 
-.nav__link {
-    list-style: none;
+.header {
+    height: 80px;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
+    background: white;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-list { 
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar i { 
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.navbar-link {
+    text-decoration: none;
     color: black;
-    cursor: pointer;
-    
-    
-
-    
+    font-weight: 300;
 }
 
-.item__link {}
+@media (max-width: 576px) {
+    .navbar-list {
+        background: white;
+        width: 100px;
+        height: calc(90vh - 80px);
+        top: 80px;
+        left: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    .navbar i {
+        display: block;
+    }
 
-
-.main{
-    padding-top: 200px;
+    #toggle-menu:checked ~ .navbar-list {
+        display: flex;
+    }
 }
+
+
+
+
+
 
 .hero-info { 
+    
     text-align: center;
-    background-image: url(./imagenes/pilar-fitness-gym.webp);
+    background-image: url(./imagenes/por_que_dejas_de_ver_resultados_cuando_entrenas_9833_3000x2000.webp);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     border-radius: 10px;
-    color: white;
+    color: rgba(247, 249, 237, 0.944);
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     box-shadow: 5px 8px 12px black;
     padding: 150px;
-
 }
 
-.btn { 
+.parrafo {
+   font-size: 30px;
+   text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+   text-align: center;
+   color: rgba(247, 249, 237, 0.944) ;
+   
+}
+
+.btn {
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: solid 1px;
+    margin-top: 20px;
+    background-color: black;
+    color:rgba(247, 249, 237, 0.944);
+    cursor: pointer;
+    transform: scale(1.1);
+    
+    
 
 }
