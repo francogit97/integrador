@@ -6,19 +6,20 @@
     <title>integrador</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     
 
 </head>
 <body class="body">
-    <header class="header">
+    <header class="header" id="header">
         <img class="img-logo" src="./imagenes/Anotación_2023-10-16_230141-removebg-preview.png" alt="">
         <nav class="navbar">
             <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
             <input type="checkbox"  id="toggle-menu">
             <ul class="navbar-list">
-                <li class="navbar-list"><a href="#"></a>Inicio</li>
-                <li class="navbar-list"><a href="#"></a>Tienda</li>
-                <li class="navbar-list"><a href="#"></a>Contacto</li>
+                <li class="navbar-list"><a href="#header" target="_blank"></a>Inicio</li>
+                <li class="navbar-list"><a href="#img-tienda" target="_blank"></a>Tienda</li>
+                <li class="navbar-list"><a href="#footer"></a>Contacto</li>
             </ul>
         </nav>
     </header>
@@ -29,7 +30,8 @@
            
             <h1>No te detengas hasta que estés orgulloso.</h1>
             <p class="parrafo">¡¡Comenzá a entrenar hoy!!</p>
-            <button class="btn"> Suscríbete </button>
+            <a href="http://127.0.0.1:5500/formulario.html"><button class="btn"> Suscríbete </button></a>
+            
             
 
         </div>
@@ -78,7 +80,7 @@
         
         </section>
        
-        <div class="subtitle-tienda">
+        <div class="subtitle-tienda" id="subtitle-tienda">
             <h2>Tienda</h2>
         </div>
 
@@ -143,7 +145,7 @@
        
     </main>
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <ul class="footer-links"><a href="#"></a>Trabaja con nostros en ENERGYM</ul>
     <ul class="footer-links"><a href="#"></a>Politica de privacidad</ul>
     <ul class="footer-links"><a href="#"></a>Nosotros</ul>

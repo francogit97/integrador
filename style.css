@@ -6,7 +6,7 @@
 }
 
 .body {
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
     
 }
 
@@ -37,6 +37,7 @@
     list-style-position: none;
     display: flex;
     gap: 80px;
+    cursor: pointer;
 }
 
 .navbar {
@@ -70,6 +71,7 @@
         align-items: center;
         justify-content: center;
         display: none;
+        
     }
     .navbar i {
         display: block;
