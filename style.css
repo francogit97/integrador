@@ -15,6 +15,7 @@
 
 .main { 
     padding-top: 100px;
+    
 }
 
 .header {
@@ -116,6 +117,71 @@
     cursor: pointer;
     transform: scale(1.1);
     
+}
+
+
+.subtitle { 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+#cards {
+    padding: 50px 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+#cards h2 {
+    font-size: 30px;
+    color: #1c1e20 (247, 249, 237, 0.944);
+    gap: 20px;
+}
+
+.info-card {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 20px;
+
+    font-size: 25px;
+}
+
+.p-cards {
+    
+    font-size: 20px;
+    text-align: center;
     
 
+}
+
+.img-cards {
+    width: 400px;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+
+.img-cards3 {
+    width: 400px;
+}
+
+
+
+.info-cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
 }
